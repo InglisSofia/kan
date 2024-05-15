@@ -1,0 +1,742 @@
+/*Font import*/
+@import url('https://fonts.googleapis.com/css2?family=Anek+Odia:wght@100..800&display=swap');
+
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3ab1;
+    font-family: 'Anek+Odia', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Anek+Odia', sans-serif;
+    letter-spacing: 1px;
+    color: #8d9e389e;
+    text-align: center;
+}
+
+.hidden-heading {
+    display: none;
+}
+
+/* Header */
+header {
+    background-color: white;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #8d9e38;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.logo {
+    width: 200px;
+    height: 50%;
+    margin-top: 10px;
+    margin-left: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu {
+    font-size: 100%;
+    letter-spacing: 4px;
+    list-style-type: none;
+    color: #8d9e389e;
+}
+
+#menu>li {
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-right: 2em;
+}
+
+.active {
+    border-bottom: 1px solid #8d9e38;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #8d9e38;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+/* Main content */
+main {
+    /* Enlarge main element to push footer down*/
+    flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 47px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
+}
+
+ol {
+
+    padding-left: 30px;
+}
+
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/leksaker.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#hero-skola {
+    height: 600px;
+    width: 100%;
+    background: url("../images/bokhylla2.png") no-repeat center center/cover;
+    position: relative;
+}
+
+#hero-utredning {
+    height: 500px;
+    width: 100%;
+    background: url("../images/utredning2.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#hero-kontakt {
+    height: 500px;
+    width: 100%;
+    background: url("../images/lampa.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#hero-aktuellt {
+    height: 500px;
+    width: 100%;
+    background: url("../images/snurra.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#hero-behandling {
+    height: 500px;
+    width: 100%;
+    background: url("../images/medicinsk.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    background-color: #76634ecc;
+    font-size: 80%;
+    position: left;
+    top: 30px;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 20px;
+    min-height: 200px;
+    padding-top: 0.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+#cover-text>p,
+#cover-text>h3,
+#cover-text>ul {
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 2px;
+}
+
+/* Start section */
+
+section a {
+    text-decoration: none;
+    color: #3a3a3ab1;
+}
+
+#startsida {
+    width: 100%;
+    margin: auto;
+    background-color: #8d9e381e;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#startsida2 {
+    width: 100%;
+    margin-top: 5px;
+    background-color: #8d9e381e;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#arbutv {
+    width: 100%;
+    margin-top: 5px;
+    background-color: #8d9e381e;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#arbutv h1 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: #8d9e389e;
+}
+
+#startsida-kontakt {
+    width: 100%;
+    background-color: #8d9e381e;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 20px;
+}
+
+#nytt {
+    width: 100%;
+    margin-top: 5px;
+    background-color: #8d9e381e;
+    padding-left: 20px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#nytt h1 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: #8d9e38;
+}
+
+p {
+    text-align: center;
+}
+
+hr {
+    border-top: 1px solid #8d9e38;
+    margin: 5px 0;
+}
+
+#startsida h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#medarbetare {
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+    background-color: #8d9e381e;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 20px;
+}
+
+#medarbetare2 {
+    width: 100%;
+    height: auto;
+    background-color: #8d9e381e;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+}
+
+#medarbetare3 {
+    width: 100%;
+    height: auto;
+    background-color: #8d9e381e;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+}
+
+#medarbetare h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#vanster>div,
+#hoger>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#indelning-sida p {
+    padding: 0 20px;
+}
+
+#portratt p {
+    padding: 0 20px;
+}
+
+#bild-centrerad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#huvudbild {
+    background: url(../images/unseen-studio-s9CC2SKySJM-unsplash.jpeg) no-repeat top center / cover;
+    background-color: #76634e93;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#startbild {
+    background: url(../images/lego.jpg) no-repeat top center / cover;
+    background-color: #76634e93;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#skola {
+    background: url(../images/skola.jpg) no-repeat top center / cover;
+    background-color: #76634e93;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#utredning {
+    background: url(../images/utredning2.png) no-repeat center center/cover;
+    background-color: #76634e93;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#nytt-bild {
+    background: url(../images/unseen-studio-s9CC2SKySJM-unsplash.jpeg) no-repeat center center/cover;
+    background-color: #76634e93;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#utbildning {
+    background: url(../images/unseen-studio-s9CC2SKySJM-unsplash.jpeg) no-repeat center center/cover;
+    background-color: #76634e93;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#utbildning2 {
+    background: url(../images/unseen-studio-s9CC2SKySJM-unsplash.jpeg) no-repeat center center/cover;
+    background-color: #76634e93;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#behandling {
+    background: url(../images/läkarbesök.png) no-repeat center center/cover;
+    background-color: #76634e93;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#kontakt-bild {
+    background: url(../images/väntrum2.jpg) no-repeat center center/cover;
+    background-color: #76634e93;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#aktuellt {
+    background: url(../images/IMG_0643.JPG) no-repeat center center/cover;
+    background-color: #76634e93;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+/* Porträttbilder */
+
+#lisa {
+    background: url(../images/Lisa2.jpg) no-repeat top center / cover;
+    background-color: #76634e93;
+    height: 70vw;
+    width: 70vw;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+
+}
+
+#nicklas {
+    background: url(../images/Nicklas2.jpg) no-repeat top center / cover;
+    background-color: #76634e93;
+    height: 70vw;
+    width: 70vw;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+
+}
+
+#emma {
+    background: url(../images/Emma2.jpg) no-repeat top center / cover;
+    background-color: #76634e93;
+    height: 70vw;
+    width: 70vw;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+
+}
+
+#anna {
+    background: url(../images/Anna2.jpg) no-repeat top center / cover;
+    background-color: #76634e93;
+    height: 70vw;
+    width: 70vw;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+
+}
+
+#johan {
+    background: url(../images/Johan2.jpg) no-repeat top center / cover;
+    background-color: #76634e93;
+    height: 70vw;
+    width: 70vw;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+
+}
+
+#elin {
+    background: url(../images/Elin.jpg) no-repeat top center / cover;
+    background-color: #76634e93;
+    height: 70vw;
+    width: 70vw;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+
+}
+
+#klara {
+    background: url(../images/Klara.jpg) no-repeat top center / cover;
+    background-color: #76634e93;
+    height: 70vw;
+    width: 70vw;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#julia {
+    background: url(../images/Julia.jpg) no-repeat top center / cover;
+    background-color: #76634e93;
+    height: 70vw;
+    width: 70vw;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#josefine {
+    background: url(../images/Josefine2.jpg) no-repeat top center / cover;
+    background-color: #76634e93;
+    height: 70vw;
+    width: 70vw;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+
+}
+
+#johanna {
+    background: url(../images/Johanna.jpg) no-repeat top center / cover;
+    background-color: #76634e93;
+    height: 70vw;
+    width: 70vw;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+
+}
+
+#kim {
+    background: url(../images/Kim.jpg) no-repeat top center / cover;
+    background-color: #76634e93;
+    height: 70vw;
+    width: 70vw;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+
+}
+
+#portratt-bild {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Form */
+
+/* Footer */
+
+footer {
+    background-color: #76634eb6;
+    text-align: center;
+}
+
+footer p {
+    color: #ffffff;
+    text-align: left;
+}
+
+img.hbtqi-gif {
+    width: 100px;
+    height: auto;
+    margin-top: 3px;
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main content */
+    main {
+        /* Push main content down to accommodate larger header */
+        margin-top: 79px;
+    }
+
+
+    /* Hero */
+    #cover-text {
+        width: 300px;
+        right: 50px;
+    }
+
+    /* start section */
+
+    #vanster,
+    #hoger {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #vanster>div,
+    #hoger>div {
+        width: 75%;
+    }
+
+    #hoger>div {
+        text-align: end;
+        align-self: flex-end;
+    }
+
+    /* Form */
+
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    /* start section */
+    #indelning-sida {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #indelning-sida>div {
+        flex: 1;
+    }
+
+    #portratt {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #portratt>div {
+        flex: 1;
+    }
+
+    #bild-centrerad {
+        order: 0
+    }
+
+    #hoger {
+        order: 1;
+    }
+
+    #hoger>div {
+        align-self: flex-start;
+    }
+
+    #vanster>div {
+        align-self: flex-end;
+    }
+}
