@@ -128,6 +128,7 @@ ol {
     height: 600px;
     width: 100%;
     background: url("../images/bokhylla2.png") no-repeat center center/cover;
+    background-attachment: fixed;
     position: relative;
 }
 
@@ -135,6 +136,7 @@ ol {
     height: 500px;
     width: 100%;
     background: url("../images/utredning2.jpg") no-repeat center center/cover;
+    background-attachment: fixed;
     position: relative;
 }
 
@@ -142,6 +144,7 @@ ol {
     height: 500px;
     width: 100%;
     background: url("../images/lampa.jpg") no-repeat center center/cover;
+    background-attachment: fixed;
     position: relative;
 }
 
@@ -149,6 +152,7 @@ ol {
     height: 500px;
     width: 100%;
     background: url("../images/snurra.jpg") no-repeat center center/cover;
+    background-attachment: fixed;
     position: relative;
 }
 
@@ -156,6 +160,7 @@ ol {
     height: 500px;
     width: 100%;
     background: url("../images/medicinsk.jpg") no-repeat center center/cover;
+    background-attachment: fixed;
     position: relative;
 }
 
