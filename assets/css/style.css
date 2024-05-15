@@ -117,11 +117,17 @@ ol {
 
 /* Hero section */
 #hero {
-    height: 600px;
-    width: 100%;
-    background: url("../images/leksaker.jpg") no-repeat center center/cover;
-    position: relative;
-}
+    background-image: url(../images/leksaker.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+  }
+
 
 #hero-skola {
     height: 600px;
@@ -145,10 +151,15 @@ ol {
 }
 
 #hero-aktuellt {
-    height: 500px;
-    width: 100%;
-    background: url("../images/snurra.jpg") no-repeat center center/cover;
-    position: relative;
+    background-image: url(../images/snurra.jpg);
+    background-attachment: fixed;
+    background-position: relative;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
 }
 
 #hero-behandling {
