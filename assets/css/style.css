@@ -490,6 +490,19 @@ hr {
     max-height: 300px;
 }
 
+#privat {
+    background: url(../images/sam_hem6.jpg) no-repeat center center/cover;
+    background-color: #76634e93;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
 /* Porträttbilder */
 
 #lisa {
