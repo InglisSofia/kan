@@ -452,7 +452,7 @@ hr {
 }
 
 #aktuellt {
-    background: url(../images/utredning2.jpg) no-repeat center center/cover;
+    background: url(../images/aktuellt.jpg) no-repeat center center/cover;
     background-color: #76634e93;
     height: 90vw;
     width: 90vw;
@@ -466,6 +466,19 @@ hr {
 
 #utredningbeteende {
     background: url(../images/sam_hem_tva.jpg) no-repeat center center/cover;
+    background-color: #76634e93;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#utredningbeteende2 {
+    background: url(../images/grävskopa.jpg) no-repeat center center/cover;
     background-color: #76634e93;
     height: 90vw;
     width: 90vw;
