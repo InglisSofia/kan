@@ -134,7 +134,7 @@ ol {
 #hero-utredning {
     height: 500px;
     width: 100%;
-    background: url("../images/utredning2.jpg") no-repeat center center/cover;
+    background: url("../images/utredningsaga.jpg") no-repeat center center/cover;
     position: relative;
 }
 
@@ -374,7 +374,7 @@ hr {
 }
 
 #utredning {
-    background: url(../images/utredningsaga.jpg) no-repeat center center/cover;
+    background: url(../images/medicinsk.jpg) no-repeat center center/cover;
     background-color: #76634e93;
     height: 90vw;
     width: 90vw;
