@@ -166,6 +166,13 @@ ol {
     position: relative;
 }
 
+#hero-utredningbeteende {
+    height: 500px;
+    width: 100%;
+    background: url("../images/sam_hem3.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
 #cover-text {
     background-color: #76634ecc;
     font-size: 80%;
@@ -367,7 +374,7 @@ hr {
 }
 
 #utredning {
-    background: url(../images/utredning2.png) no-repeat center center/cover;
+    background: url(../images/utredningsaga.jpg) no-repeat center center/cover;
     background-color: #76634e93;
     height: 90vw;
     width: 90vw;
@@ -380,7 +387,7 @@ hr {
 }
 
 #nytt-bild {
-    background: url(../images/unseen-studio-s9CC2SKySJM-unsplash.jpeg) no-repeat center center/cover;
+    background: url(../images/läkarbesök.jpg) no-repeat center center/cover;
     background-color: #76634e93;
     height: 90vw;
     width: 90vw;
@@ -419,7 +426,7 @@ hr {
 }
 
 #behandling {
-    background: url(../images/läkarbesök.jpg) no-repeat center center/cover;
+    background: url(../images/Sam_hem.jpg) no-repeat center center/cover;
     background-color: #76634e93;
     height: 90vw;
     width: 90vw;
@@ -445,7 +452,20 @@ hr {
 }
 
 #aktuellt {
-    background: url(../images/IMG_0643.JPG) no-repeat center center/cover;
+    background: url(../images/utredning2.jpg) no-repeat center center/cover;
+    background-color: #76634e93;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#utredningbeteende {
+    background: url(../images/sam_hem_tva.jpg) no-repeat center center/cover;
     background-color: #76634e93;
     height: 90vw;
     width: 90vw;
