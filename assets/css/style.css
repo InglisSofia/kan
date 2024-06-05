@@ -175,26 +175,24 @@ ol {
 
 #cover-text {
     background-color: #76634ecc;
+    color: #ffffff;
     font-size: 80%;
     position: left;
-    top: 30px;
-    width: 80%;
+    top: 10px;
+    width: 70%;
     margin-top: 50px;
     margin-left: 20px;
     min-height: 200px;
-    padding-top: 0.5px;
+    padding-bottom: 25px;
     padding-left: 10px;
     padding-right: 10px;
 
 }
 
-#cover-text>p,
-#cover-text>h3,
-#cover-text>ul {
+#cover-text>h4 {
     color: #ffffff;
-    margin-top: 15px;
-    margin-bottom: 2px;
 }
+
 
 /* Start section */
 
