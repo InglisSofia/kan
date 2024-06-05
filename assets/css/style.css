@@ -246,6 +246,10 @@ section a {
     padding-top: 20px;
 }
 
+#adress {
+    padding-bottom: 20px;
+}
+
 #nytt {
     width: 100%;
     margin-top: 5px;
@@ -271,6 +275,7 @@ hr {
     border-top: 1px solid #8d9e38;
     margin: 5px 0;
 }
+
 
 #startsida h2 {
     margin-bottom: 20px;
