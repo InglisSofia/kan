@@ -153,13 +153,6 @@ ol {
     position: relative;
 }
 
-#hero-behandling {
-    height: 500px;
-    width: 100%;
-    background: url("../images/medicinsk.jpg") no-repeat center center/cover;
-    position: relative;
-}
-
 #hero-privat {
     height: 500px;
     width: 100%;
@@ -167,12 +160,6 @@ ol {
     position: relative;
 }
 
-#hero-utredningbeteende {
-    height: 500px;
-    width: 100%;
-    background: url("../images/sam_hem3.jpg") no-repeat center center/cover;
-    position: relative;
-}
 
 #cover-text {
     background-color: #76634ecc;
@@ -221,23 +208,6 @@ section a {
     padding-right: 5px;
     padding-top: 20px;
     padding-bottom: 20px;
-}
-
-#arbutv {
-    width: 100%;
-    margin-top: 5px;
-    background-color: #8d9e381e;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-#arbutv h1 {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    text-align: center;
-    color: #8d9e389e;
 }
 
 #startsida-kontakt {
@@ -391,19 +361,6 @@ hr {
     max-height: 300px;
 }
 
-#utredning {
-    background: url(../images/medicinsk.jpg) no-repeat center center/cover;
-    background-color: #76634e93;
-    height: 90vw;
-    width: 90vw;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    /* Makes the square image into a circle */
-    border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
-}
-
 #nytt-bild {
     background: url(../images/läkarbesök.jpg) no-repeat center center/cover;
     background-color: #76634e93;
@@ -418,19 +375,6 @@ hr {
 }
 
 #utbildning {
-    background: url(../images/snurra.jpg) no-repeat center center/cover;
-    background-color: #76634e93;
-    height: 90vw;
-    width: 90vw;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    /* Makes the square image into a circle */
-    border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
-}
-
-#utbildning2 {
     background: url(../images/annaskriver.jpg) no-repeat center center/cover;
     background-color: #76634e93;
     height: 90vw;
@@ -443,8 +387,8 @@ hr {
     max-height: 300px;
 }
 
-#behandling {
-    background: url(../images/Sam_hem.jpg) no-repeat center center/cover;
+#utbildning2 {
+    background: url(../images/snurra.jpg) no-repeat center center/cover;
     background-color: #76634e93;
     height: 90vw;
     width: 90vw;
@@ -471,20 +415,6 @@ hr {
 
 #aktuellt {
     background: url(../images/lego.jpg) no-repeat center center/cover;
-    background-color: #76634e93;
-    height: 90vw;
-    width: 90vw;
-    margin-bottom: 25px;
-    margin-top: 5px;
-    /* Makes the square image into a circle */
-    border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
-}
-
-
-#utredningbeteende2 {
-    background: url(../images/grävskopa.jpg) no-repeat center center/cover;
     background-color: #76634e93;
     height: 90vw;
     width: 90vw;
@@ -760,6 +690,7 @@ img.hbtqi-gif {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+    
 
 }
 
