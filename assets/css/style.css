@@ -131,12 +131,6 @@ ol {
     position: relative;
 }
 
-#hero-utredning {
-    height: 500px;
-    width: 100%;
-    background: url("../images/utredningsaga.jpg") no-repeat center center/cover;
-    position: relative;
-}
 
 #hero-kontakt {
     height: 500px;
@@ -145,10 +139,17 @@ ol {
     position: relative;
 }
 
+#hero-offentlig {
+    height: 500px;
+    width: 100%;
+    background: url("../images/privat.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
 #hero-aktuellt {
     height: 500px;
     width: 100%;
-    background: url("../images/snurra.jpg") no-repeat center center/cover;
+    background: url("../images/forstahjarna.jpg") no-repeat center center/cover;
     position: relative;
 }
 
@@ -162,7 +163,7 @@ ol {
 #hero-privat {
     height: 500px;
     width: 100%;
-    background: url("../images/privat.jpg") no-repeat center center/cover;
+    background: url("../images/sam_hem3.jpg") no-repeat center center/cover;
     position: relative;
 }
 
@@ -210,6 +211,7 @@ section a {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
 
 #startsida2 {
     width: 100%;
@@ -351,7 +353,7 @@ hr {
 }
 
 #startbild {
-    background: url(../images/lego.jpg) no-repeat top center / cover;
+    background: url(../images/bilarlada.jpg) no-repeat top center / cover;
     background-color: #76634e93;
     height: 90vw;
     width: 90vw;
@@ -365,6 +367,19 @@ hr {
 
 #skola {
     background: url(../images/skola.jpg) no-repeat top center / cover;
+    background-color: #76634e93;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#offentlig {
+    background: url(../images/Sam_hem.jpg) no-repeat top center / cover;
     background-color: #76634e93;
     height: 90vw;
     width: 90vw;
@@ -403,7 +418,7 @@ hr {
 }
 
 #utbildning {
-    background: url(../images/bilarlada.jpg) no-repeat center center/cover;
+    background: url(../images/snurra.jpg) no-repeat center center/cover;
     background-color: #76634e93;
     height: 90vw;
     width: 90vw;
@@ -416,7 +431,7 @@ hr {
 }
 
 #utbildning2 {
-    background: url(../images/unseen-studio-s9CC2SKySJM-unsplash.jpeg) no-repeat center center/cover;
+    background: url(../images/annaskriver.jpg) no-repeat center center/cover;
     background-color: #76634e93;
     height: 90vw;
     width: 90vw;
@@ -455,7 +470,7 @@ hr {
 }
 
 #aktuellt {
-    background: url(../images/aktuellt.jpg) no-repeat center center/cover;
+    background: url(../images/lego.jpg) no-repeat center center/cover;
     background-color: #76634e93;
     height: 90vw;
     width: 90vw;
@@ -467,18 +482,6 @@ hr {
     max-height: 300px;
 }
 
-#utredningbeteende {
-    background: url(../images/sam_hem_tva.jpg) no-repeat center center/cover;
-    background-color: #76634e93;
-    height: 90vw;
-    width: 90vw;
-    margin-bottom: 25px;
-    margin-top: 5px;
-    /* Makes the square image into a circle */
-    border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
-}
 
 #utredningbeteende2 {
     background: url(../images/grävskopa.jpg) no-repeat center center/cover;
@@ -494,7 +497,7 @@ hr {
 }
 
 #privat {
-    background: url(../images/sam_hem6.jpg) no-repeat center center/cover;
+    background: url(../images/sam_hem_tva.jpg) no-repeat center center/cover;
     background-color: #76634e93;
     height: 90vw;
     width: 90vw;
