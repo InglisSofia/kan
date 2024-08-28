@@ -449,6 +449,19 @@ hr {
     max-height: 300px;
 }
 
+#mer_privat_bild {
+    background: url(../images/Tavla_privat.jpg) no-repeat center center/cover;
+    background-color: #76634e93;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
 /* Porträttbilder */
 
 #lisa {
