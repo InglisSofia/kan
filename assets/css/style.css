@@ -199,6 +199,16 @@ div a {
     padding-bottom: 20px;
 }
 
+#startsida2aktuellt {
+    width: 100%;
+    margin-top: 5px;
+    background-color: #8d9e381e;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 #mer_privat {
     width: 100%;
     margin-top: 5px;
@@ -425,6 +435,19 @@ hr {
 
 #aktuellt {
     background: url(../images/lego.jpg) no-repeat center center/cover;
+    background-color: #76634e93;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#aktuellt2 {
+    background: url(../images/90cdc969-57bc-492d-bfb0-ff5ff7051c7c.jpg) no-repeat center center/cover;
     background-color: #76634e93;
     height: 90vw;
     width: 90vw;
