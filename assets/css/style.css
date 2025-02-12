@@ -28,6 +28,7 @@ h4 {
     text-align: center;
 }
 
+
 .hidden-heading {
     display: none;
 }
@@ -121,7 +122,7 @@ ol {
     width: 100%;
     background: url("../images/leksaker.jpg") no-repeat center center/cover;
     position: relative;
-  }
+}
 
 
 #hero-skola {
@@ -736,7 +737,7 @@ img.hbtqi-gif {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
-    
+
 
 }
 
