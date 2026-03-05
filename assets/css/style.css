@@ -657,13 +657,26 @@ footer {
 
 footer p {
     color: #ffffff;
-    text-align: left;
+    text-align: center;
 }
 
 img.hbtqi-gif {
     width: 100px;
     height: auto;
     margin-top: 3px;
+}
+
+#sociala-medier {
+  
+    justify-content: space-evenly;
+    list-style-type: none;
+    display: flex;
+}
+
+#sociala-medier i {
+    font-size: 200%;
+    padding: 5%;
+    color: #ffffff;
 }
 
 /* Media query: tablets and larger (768px and up) */
